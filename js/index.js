@@ -123,7 +123,7 @@ var IndexPage = {
       location.href = "./login.html";
     },
     register: function register() {
-      location.href = "./beforelogin.html";
+      location.href = "./beforeLogin.html";
     }
   }
 };
