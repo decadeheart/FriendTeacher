@@ -3085,7 +3085,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _api = __webpack_require__(9);
+var _api = __webpack_require__(8);
 
 var _api2 = _interopRequireDefault(_api);
 
@@ -3119,7 +3119,7 @@ exports.default = {
           password: self.password,
           phoneNumber: self.phoneNumber
         });
-        alert(self.tableData);
+        alert("登录成功");
         location.href = "./teacherlist.html";
       });
     }

@@ -17,7 +17,15 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
           _vm.changeColor(teacher)
         }
       }
-    }, [_vm._m(1, true), _vm._v(" "), _c('div', {
+    }, [_c('div', {
+      staticClass: "left"
+    }, [_c('div', {
+      staticClass: "avatar"
+    }, [_c('img', {
+      attrs: {
+        "src": teacher.avatar
+      }
+    })])]), _vm._v(" "), _c('div', {
       staticClass: "right"
     }, [_c('div', {
       staticClass: "header"
@@ -81,12 +89,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "src": "../imgs/icon_08.png"
     }
   })])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "left"
-  }, [_c('div', {
-    staticClass: "avatar"
-  })])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -143,11 +145,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = {
   getTeacherList: {
-    teacherList: [{ avatar: "", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 4, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 1, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 2, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 3, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }]
+    teacherList: [{ avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 4, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 1, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 2, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 3, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }]
   },
   getTeacherInfo: {
     teacherInfo: {
-      avatar: "",
+      avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg",
       school: "华中科技大学",
       major: "信息工程",
       subjectGood: "数学/理综",
@@ -8758,12 +8760,14 @@ var _fakeData = __webpack_require__(15);
 
 var _fakeData2 = _interopRequireDefault(_fakeData);
 
-var _api = __webpack_require__(9);
+var _api = __webpack_require__(8);
 
 var _api2 = _interopRequireDefault(_api);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//
+//
 //
 //
 //
@@ -8894,7 +8898,7 @@ exports = module.exports = __webpack_require__(4)();
 
 
 // module
-exports.push([module.i, "\n.inner[data-v-09360e44] {\n  display: flex;\n  justify-content: center;\n}\n.inner .wrapper[data-v-09360e44] {\n  width: 375px;\n}\n.inner .wrapper .filter[data-v-09360e44] {\n  height: 48px;\n  width: 375px;\n  background: #F5F5F5;\n  display: flex;\n  text-align: center;\n  line-height: 30px;\n  font-size: 16px;\n  font-weight: bold;\n  font-family: 宋体;\n}\n.inner .wrapper .filter .city[data-v-09360e44] {\n  margin: 9px 0;\n  width: 106px;\n  height: 30px;\n  border-right: 1px solid #E2E2E2;\n}\n.inner .wrapper .filter .city img[data-v-09360e44] {\n  height: 19px;\n}\n.inner .wrapper .filter .star-sort[data-v-09360e44] {\n  margin: 9px 0;\n  height: 30px;\n  width: 132px;\n  border-right: 1px solid #E2E2E2;\n}\n.inner .wrapper .filter .star-sort img[data-v-09360e44] {\n  width: 12px;\n  margin-bottom: 5px;\n}\n.inner .wrapper .filter .need-sort[data-v-09360e44] {\n  margin: 9px 0;\n  height: 30px;\n  width: 135px;\n}\n.inner .wrapper .filter .need-sort img[data-v-09360e44] {\n  width: 12px;\n  margin-bottom: 5px;\n}\n.inner .wrapper .teacherlist[data-v-09360e44] {\n  height: 99px;\n  width: 375px;\n  display: flex;\n  background: #FDEA9E;\n}\n.inner .wrapper .teacherlist .left[data-v-09360e44] {\n  height: 99px;\n  width: 108px;\n  display: flex;\n  justify-content: center;\n}\n.inner .wrapper .teacherlist .left .avatar[data-v-09360e44] {\n  height: 82px;\n  width: 82px;\n  border-radius: 50%;\n  background-color: #fff;\n  margin: auto 0;\n}\n.inner .wrapper .teacherlist .right[data-v-09360e44] {\n  padding-left: 9px;\n  height: 82px;\n  width: 222px;\n  margin: auto 0;\n}\n.inner .wrapper .teacherlist .right .header[data-v-09360e44] {\n  display: flex;\n  margin-bottom: 14px;\n}\n.inner .wrapper .teacherlist .right .header .name[data-v-09360e44] {\n  font-size: 17px;\n  font-family: 宋体;\n  font-weight: bold;\n  margin-right: 16px;\n}\n.inner .wrapper .teacherlist .right .header .star[data-v-09360e44] {\n  color: #B2AFA5;\n  font-size: 14px;\n  vertical-align: center;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .wrapper .teacherlist .right .header .star .star-logo[data-v-09360e44] {\n  width: 16px;\n}\n.inner .wrapper .teacherlist .right .header .star .star-logo img[data-v-09360e44] {\n  width: 16px;\n}\n.inner .wrapper .teacherlist .right .center[data-v-09360e44] {\n  font-size: 13px;\n  color: #696969;\n  font-family: 宋体;\n  font-weight: bold;\n  margin-bottom: 14px;\n}\n.inner .wrapper .teacherlist .right .foot[data-v-09360e44] {\n  font-size: 13.2px;\n  color: #AFAFAF;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .wrapper .teacherlist .next[data-v-09360e44] {\n  height: 82px;\n  width: 45px;\n  margin: auto 0;\n  vertical-align: center;\n}\n.inner .wrapper .teacherlist .next .next-icon[data-v-09360e44] {\n  width: 45px;\n  height: 27px;\n  margin: 18px 0;\n}\n.inner .wrapper .teacherlist .next .next-icon img[data-v-09360e44] {\n  height: 27px;\n}\n.inner .wrapper .active[data-v-09360e44] {\n  background: #FBCB0D;\n}\n", ""]);
+exports.push([module.i, "\n.inner[data-v-09360e44] {\n  display: flex;\n  justify-content: center;\n}\n.inner .wrapper[data-v-09360e44] {\n  width: 100%;\n}\n.inner .wrapper .filter[data-v-09360e44] {\n  height: 48px;\n  width: 100%;\n  background: #F5F5F5;\n  display: flex;\n  text-align: center;\n  line-height: 30px;\n  font-size: 16px;\n  font-weight: bold;\n  font-family: 宋体;\n  justify-content: center;\n}\n.inner .wrapper .filter .city[data-v-09360e44] {\n  margin: 9px 0;\n  width: 106px;\n  height: 30px;\n  border-right: 1px solid #E2E2E2;\n}\n.inner .wrapper .filter .city img[data-v-09360e44] {\n  height: 19px;\n}\n.inner .wrapper .filter .star-sort[data-v-09360e44] {\n  margin: 9px 0;\n  height: 30px;\n  width: 132px;\n  border-right: 1px solid #E2E2E2;\n}\n.inner .wrapper .filter .star-sort img[data-v-09360e44] {\n  width: 12px;\n  margin-bottom: 5px;\n}\n.inner .wrapper .filter .need-sort[data-v-09360e44] {\n  margin: 9px 0;\n  height: 30px;\n  width: 135px;\n}\n.inner .wrapper .filter .need-sort img[data-v-09360e44] {\n  width: 12px;\n  margin-bottom: 5px;\n}\n.inner .wrapper .teacherlist[data-v-09360e44] {\n  height: 99px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  background: #FDEA9E;\n}\n.inner .wrapper .teacherlist .left[data-v-09360e44] {\n  height: 99px;\n  width: 108px;\n  display: flex;\n  justify-content: center;\n}\n.inner .wrapper .teacherlist .left .avatar[data-v-09360e44] {\n  height: 82px;\n  width: 82px;\n  border-radius: 50%;\n  margin: auto 0;\n}\n.inner .wrapper .teacherlist .left .avatar img[data-v-09360e44] {\n  height: 82px;\n  width: 82px;\n  border-radius: 50%;\n}\n.inner .wrapper .teacherlist .right[data-v-09360e44] {\n  padding-left: 9px;\n  height: 82px;\n  width: 222px;\n  margin: auto 0;\n}\n.inner .wrapper .teacherlist .right .header[data-v-09360e44] {\n  display: flex;\n  margin-bottom: 14px;\n}\n.inner .wrapper .teacherlist .right .header .name[data-v-09360e44] {\n  font-size: 17px;\n  font-family: 宋体;\n  font-weight: bold;\n  margin-right: 16px;\n}\n.inner .wrapper .teacherlist .right .header .star[data-v-09360e44] {\n  color: #B2AFA5;\n  font-size: 14px;\n  vertical-align: center;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .wrapper .teacherlist .right .header .star .star-logo[data-v-09360e44] {\n  width: 16px;\n}\n.inner .wrapper .teacherlist .right .header .star .star-logo img[data-v-09360e44] {\n  width: 16px;\n}\n.inner .wrapper .teacherlist .right .center[data-v-09360e44] {\n  font-size: 13px;\n  color: #696969;\n  font-family: 宋体;\n  font-weight: bold;\n  margin-bottom: 14px;\n}\n.inner .wrapper .teacherlist .right .foot[data-v-09360e44] {\n  font-size: 13.2px;\n  color: #AFAFAF;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .wrapper .teacherlist .next[data-v-09360e44] {\n  height: 82px;\n  width: 45px;\n  margin: auto 0;\n  vertical-align: center;\n}\n.inner .wrapper .teacherlist .next .next-icon[data-v-09360e44] {\n  width: 45px;\n  height: 27px;\n  margin: 18px 0;\n}\n.inner .wrapper .teacherlist .next .next-icon img[data-v-09360e44] {\n  height: 27px;\n}\n.inner .wrapper .active[data-v-09360e44] {\n  background: #FBCB0D;\n}\n", ""]);
 
 // exports
 

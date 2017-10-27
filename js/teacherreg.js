@@ -366,7 +366,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _api = __webpack_require__(9);
+var _api = __webpack_require__(8);
 
 var _api2 = _interopRequireDefault(_api);
 
@@ -415,8 +415,8 @@ var TeacherReg = {
       }).onSuccess(function (resp) {
         location.href = "./login.html";
       }).onFail(function () {
-        console.log(self.gender);
-        alert(self.gender);
+
+        alert("注册成功");
 
         location.href = "./login.html";
       });

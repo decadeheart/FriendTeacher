@@ -10,7 +10,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "detail-wrapper"
   }, [_c('div', {
     staticClass: "avatar"
-  }), _vm._v(" "), _c('div', {
+  }, [_c('img', {
+    attrs: {
+      "src": _vm.teacherInfo.avatar
+    }
+  })]), _vm._v(" "), _c('div', {
     staticClass: "name"
   }, [_vm._v(_vm._s(_vm.teacherName))]), _vm._v(" "), _c('div', {
     staticClass: "item"
@@ -139,11 +143,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = {
   getTeacherList: {
-    teacherList: [{ avatar: "", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 4, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 1, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 2, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "", name: "陈乐青", star: 3, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }]
+    teacherList: [{ avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 4, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 5, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 1, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 2, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 0, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }, { avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg", name: "陈乐青", star: 3, information: "湖北省状元", address: "武汉大学樱园公园公寓3单元", distance: "5公里", class: { active: false } }]
   },
   getTeacherInfo: {
     teacherInfo: {
-      avatar: "",
+      avatar: "http://res.cloudinary.com/dyb29pfpm/image/upload/v1491824706/privateinvestocat_fompng.jpg",
       school: "华中科技大学",
       major: "信息工程",
       subjectGood: "数学/理综",
@@ -8754,7 +8758,7 @@ var _fakeData = __webpack_require__(15);
 
 var _fakeData2 = _interopRequireDefault(_fakeData);
 
-var _api = __webpack_require__(9);
+var _api = __webpack_require__(8);
 
 var _api2 = _interopRequireDefault(_api);
 
@@ -8765,6 +8769,8 @@ var _util2 = _interopRequireDefault(_util);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var urlParams = _util2.default.parseQueryString(window.location.search); //
+//
+//
 //
 //
 //
@@ -8885,7 +8891,7 @@ exports = module.exports = __webpack_require__(4)();
 
 
 // module
-exports.push([module.i, "\n.inner[data-v-6850238c] {\n  width: 375px;\n  margin: 0 auto;\n}\n.inner .detail-wrapper .avatar[data-v-6850238c] {\n  height: 82px;\n  width: 82px;\n  margin: 37px auto 14px auto;\n  background: #fff;\n  border-radius: 50%;\n}\n.inner .detail-wrapper .name[data-v-6850238c] {\n  font-size: 16.7px;\n  font-family: 宋体;\n  font-weight: bold;\n  text-align: center;\n  margin-bottom: 17px;\n  color: #555555;\n}\n.inner .detail-wrapper .item[data-v-6850238c] {\n  margin-bottom: 14px;\n  width: 256px;\n  height: 18px;\n  margin-left: 119px;\n  line-height: center;\n}\n.inner .detail-wrapper .item .title[data-v-6850238c] {\n  font-size: 13px;\n  font-family: 宋体;\n  font-weight: bold;\n  color: #696969;\n}\n.inner .detail-wrapper .item .content[data-v-6850238c] {\n  font-size: 16px;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .detail-wrapper .item .content span[data-v-6850238c] {\n  margin-right: 8px;\n}\n.inner .detail-wrapper .item .content span img[data-v-6850238c] {\n  height: 15px;\n}\n.inner .detail-wrapper .introduction[data-v-6850238c] {\n  width: 289px;\n  height: 95px;\n  margin: 29px auto 26px auto;\n}\n.inner .detail-wrapper .introduction .title[data-v-6850238c] {\n  font-size: 12.5px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .introduction .content[data-v-6850238c] {\n  font-size: 12.5px;\n}\n.inner .detail-wrapper .book[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #F34937;\n  margin: 31px auto 17px auto;\n  text-align: center;\n  line-height: 42px;\n  color: #fff;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 0 auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back img[data-v-6850238c] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
+exports.push([module.i, "\n.inner[data-v-6850238c] {\n  width: 375px;\n  margin: 0 auto;\n}\n.inner .detail-wrapper .avatar[data-v-6850238c] {\n  height: 82px;\n  width: 82px;\n  margin: 37px auto 14px auto;\n  border-radius: 50%;\n}\n.inner .detail-wrapper .avatar img[data-v-6850238c] {\n  height: 82px;\n  width: 82px;\n  border-radius: 50%;\n}\n.inner .detail-wrapper .name[data-v-6850238c] {\n  font-size: 16.7px;\n  font-family: 宋体;\n  font-weight: bold;\n  text-align: center;\n  margin-bottom: 17px;\n  color: #555555;\n}\n.inner .detail-wrapper .item[data-v-6850238c] {\n  margin-bottom: 14px;\n  width: 256px;\n  height: 18px;\n  margin-left: 119px;\n  line-height: center;\n}\n.inner .detail-wrapper .item .title[data-v-6850238c] {\n  font-size: 13px;\n  font-family: 宋体;\n  font-weight: bold;\n  color: #696969;\n}\n.inner .detail-wrapper .item .content[data-v-6850238c] {\n  font-size: 16px;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .detail-wrapper .item .content span[data-v-6850238c] {\n  margin-right: 8px;\n}\n.inner .detail-wrapper .item .content span img[data-v-6850238c] {\n  height: 15px;\n}\n.inner .detail-wrapper .introduction[data-v-6850238c] {\n  width: 289px;\n  height: 95px;\n  margin: 29px auto 26px auto;\n}\n.inner .detail-wrapper .introduction .title[data-v-6850238c] {\n  font-size: 12.5px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .introduction .content[data-v-6850238c] {\n  font-size: 12.5px;\n}\n.inner .detail-wrapper .book[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #F34937;\n  margin: 31px auto 17px auto;\n  text-align: center;\n  line-height: 42px;\n  color: #fff;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 0 auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back img[data-v-6850238c] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
 
 // exports
 
