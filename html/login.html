@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/login.css">  
+    <title>登录友师友</title>
+  </head>
+  <body style="background-color:#fccc0d">
+    <div id="app">
+      <div class="logo">
+      </div>
+      <div class="tab-warpper">
+        <div class="dynamic-tab active" id="login-tab" onclick="change()">
+          <router-link to="/login">登录</router-link>
+        </div>
+        <div class="dynamic-tab" id="dynamic-tab" onclick="change()">
+          <router-link to="/dynamic">动态登录</router-link>
+        </div>
+      </div>
+      <router-view></router-view>
+    </div>
+    <script>
+      function change(){
+        var test = document.getElementById('login-tab')
+        var test2 = document.getElementById('dynamic-tab')
+        if(test.className == "dynamic-tab active"){
+          test.className ="dynamic-tab" 
+          test2.className = "dynamic-tab active"
+        }else{
+          test.className ="dynamic-tab active" 
+          test2.className = "dynamic-tab"         
+        }
+        //test2.className == "dynamic-tab" ? test.className = "dynamic-tab active" : "dynamic-tab" 
+      }
+    </script>
+    <script type="text/javascript" src="../js/manifest.js"></script>
+    <script type="text/javascript" src="../js/vendor.js"></script>
+    <script type="text/javascript" src="../js/login.js"></script>
+  </body>
+</html>

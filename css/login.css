@@ -1,0 +1,40 @@
+.tab-warpper{
+  height: 42px;
+  width: 347px;
+  margin:0 auto;
+  margin-bottom: 19px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  font-family: 宋体;
+  font-weight: bold;
+  line-height: 42px;
+  border-top: 1px #333333 solid;
+}
+.login-tab{
+  width: 111px;
+  height: 42px;
+  background: #333333;
+  color: #fff;
+}
+.login-tab a,.dynamic-tab a{
+  color: #fff;
+  text-decoration: none;
+}
+.dynamic-tab{
+  width: 111px;
+  height: 42px;
+  background: #655929;
+  color: #fff;  
+}
+.logo{
+  margin: 68px auto 102px auto;
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.active{
+  background: #333333;
+}
