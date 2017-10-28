@@ -4,9 +4,7 @@ webpackJsonp([9],{
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', {
-    staticClass: "logo"
-  }), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('div', {
+  return _c('div', [_vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _vm._m(2), _vm._v(" "), _c('div', {
     staticClass: "back",
     on: {
       "click": function($event) {
@@ -19,6 +17,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "logo"
+  }, [_c('img', {
+    attrs: {
+      "src": "../imgs/logo.jpg"
+    }
+  })])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "tick-wrapper"
   }, [_c('div', {
@@ -147,6 +153,8 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
 
 var FinishPay = {
   methods: {
@@ -194,7 +202,7 @@ exports = module.exports = __webpack_require__(4)();
 
 
 // module
-exports.push([module.i, "\n.logo[data-v-47e4ae39] {\n  width: 76px;\n  height: 76px;\n  margin: 37px auto 7px auto;\n  border-radius: 50%;\n  background: #fff;\n}\n.tick-wrapper[data-v-47e4ae39] {\n  margin: 0 auto;\n  width: 375px;\n  height: 164px;\n  margin-bottom: 120px;\n}\n.tick-wrapper .tick[data-v-47e4ae39] {\n  width: 199px;\n  height: 166px;\n  margin: 0 auto;\n  position: absolute;\n}\n.tick-wrapper .tick img[data-v-47e4ae39] {\n  position: relative;\n  width: 199px;\n  height: 166px;\n  margin-left: 101px;\n}\n.tick-wrapper .text[data-v-47e4ae39] {\n  text-align: center;\n  font-size: 23px;\n  font-weight: bold;\n  font-family: 宋体;\n  padding-top: 108px;\n}\n.content[data-v-47e4ae39] {\n  text-align: center;\n}\n.content .large-text[data-v-47e4ae39] {\n  font-size: 23px;\n  font-weight: bold;\n  font-family: 宋体;\n  margin-bottom: 13px;\n}\n.content .small-text[data-v-47e4ae39] {\n  font-size: 16px;\n  font-weight: bold;\n  font-family: 宋体;\n}\n.back[data-v-47e4ae39] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 18px auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.back img[data-v-47e4ae39] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
+exports.push([module.i, "\n.logo[data-v-47e4ae39] {\n  width: 76px;\n  height: 76px;\n  margin: 37px auto 7px auto;\n  border-radius: 50%;\n  background: #fff;\n}\n.logo img[data-v-47e4ae39] {\n  width: 76px;\n  height: 76px;\n  border-radius: 50%;\n}\n.tick-wrapper[data-v-47e4ae39] {\n  margin: 0 auto;\n  width: 375px;\n  height: 164px;\n  margin-bottom: 120px;\n}\n.tick-wrapper .tick[data-v-47e4ae39] {\n  width: 199px;\n  height: 166px;\n  margin: 0 auto;\n  position: absolute;\n}\n.tick-wrapper .tick img[data-v-47e4ae39] {\n  position: relative;\n  width: 199px;\n  height: 166px;\n  margin-left: 101px;\n}\n.tick-wrapper .text[data-v-47e4ae39] {\n  text-align: center;\n  font-size: 23px;\n  font-weight: bold;\n  font-family: 宋体;\n  padding-top: 108px;\n}\n.content[data-v-47e4ae39] {\n  text-align: center;\n}\n.content .large-text[data-v-47e4ae39] {\n  font-size: 23px;\n  font-weight: bold;\n  font-family: 宋体;\n  margin-bottom: 13px;\n}\n.content .small-text[data-v-47e4ae39] {\n  font-size: 16px;\n  font-weight: bold;\n  font-family: 宋体;\n}\n.back[data-v-47e4ae39] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 18px auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.back img[data-v-47e4ae39] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
 
 // exports
 

@@ -65,7 +65,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       }
     }) : _vm._e(), _vm._v(" "), (star.fill) ? _c('img', {
       attrs: {
-        "src": "../imgs/star_filled.png"
+        "src": "../imgs/red_star.png"
       }
     }) : _vm._e()])
   }))]), _vm._v(" "), _c('div', {

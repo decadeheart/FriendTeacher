@@ -8,7 +8,7 @@ exports = module.exports = __webpack_require__(4)();
 
 
 // module
-exports.push([module.i, "\n.avatar[data-v-ee92fbbe] {\n  width: 76px;\n  height: 76px;\n  border-radius: 50%;\n  margin: 37px auto 24px auto;\n  background: #fff;\n}\n.price-title[data-v-ee92fbbe] {\n  font-size: 16px;\n  color: #7583EF;\n  text-align: center;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.price[data-v-ee92fbbe] {\n  font-size: 24px;\n  font-family: 宋体;\n  font-weight: bold;\n  text-align: center;\n  margin: 0 auto;\n  margin-top: 12px;\n  padding-bottom: 48px;\n  border-bottom: 1px solid #696969;\n  width: 375px;\n}\n.payment[data-v-ee92fbbe] {\n  width: 375px;\n  height: 62px;\n  display: flex;\n  border-bottom: 1px solid #696969;\n  font-size: 16px;\n  font-family: 宋体;\n  line-height: 62px;\n  margin: 0 auto;\n}\n.payment .left[data-v-ee92fbbe] {\n  width: 332px;\n  display: flex;\n}\n.payment .left .logo[data-v-ee92fbbe] {\n  margin-top: 4px;\n  margin-left: 16px;\n  margin-right: 22px;\n}\n.payment .left .logo img[data-v-ee92fbbe] {\n  width: 22px;\n}\n.payment .choose[data-v-ee92fbbe] {\n  display: flex;\n  position: relative;\n}\n.payment .choose .uncheck[data-v-ee92fbbe] {\n  width: 26px;\n  height: 26px;\n  border-radius: 50%;\n  background: #7583EF;\n  margin: 18px 0;\n}\n.payment .choose .check[data-v-ee92fbbe] {\n  width: 26px;\n  height: 26px;\n  border-radius: 50%;\n  background: #fff;\n  margin: 18px 0;\n}\n.payment .choose img[data-v-ee92fbbe] {\n  position: absolute;\n  margin-top: 25px;\n  margin-left: 6px;\n  width: 14px;\n  height: 11px;\n}\n.book[data-v-ee92fbbe] {\n  height: 42px;\n  width: 208px;\n  background: #F34937;\n  margin: 31px auto 0 auto;\n  text-align: center;\n  line-height: 42px;\n  color: #fff;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.back[data-v-ee92fbbe] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 31px auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.back img[data-v-ee92fbbe] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
+exports.push([module.i, "\n.ourLogo[data-v-ee92fbbe] {\n  width: 76px;\n  height: 76px;\n  border-radius: 50%;\n  margin: 37px auto 24px auto;\n  background: #fff;\n}\n.ourLogo img[data-v-ee92fbbe] {\n  width: 76px;\n  height: 76px;\n  border-radius: 50%;\n}\n.price-title[data-v-ee92fbbe] {\n  font-size: 16px;\n  color: #7583EF;\n  text-align: center;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.price[data-v-ee92fbbe] {\n  font-size: 24px;\n  font-family: 宋体;\n  font-weight: bold;\n  text-align: center;\n  margin: 0 auto;\n  margin-top: 12px;\n  padding-bottom: 48px;\n  border-bottom: 1px solid #696969;\n  width: 375px;\n}\n.payment[data-v-ee92fbbe] {\n  width: 375px;\n  height: 62px;\n  display: flex;\n  border-bottom: 1px solid #696969;\n  font-size: 16px;\n  font-family: 宋体;\n  line-height: 62px;\n  margin: 0 auto;\n}\n.payment .left[data-v-ee92fbbe] {\n  width: 332px;\n  display: flex;\n}\n.payment .left .logo[data-v-ee92fbbe] {\n  margin-top: 4px;\n  margin-left: 16px;\n  margin-right: 22px;\n}\n.payment .left .logo img[data-v-ee92fbbe] {\n  width: 22px;\n}\n.payment .choose[data-v-ee92fbbe] {\n  display: flex;\n  position: relative;\n}\n.payment .choose .uncheck[data-v-ee92fbbe] {\n  width: 26px;\n  height: 26px;\n  border-radius: 50%;\n  background: #7583EF;\n  margin: 18px 0;\n}\n.payment .choose .check[data-v-ee92fbbe] {\n  width: 26px;\n  height: 26px;\n  border-radius: 50%;\n  background: #fff;\n  margin: 18px 0;\n}\n.payment .choose img[data-v-ee92fbbe] {\n  position: absolute;\n  margin-top: 25px;\n  margin-left: 6px;\n  width: 14px;\n  height: 11px;\n}\n.book[data-v-ee92fbbe] {\n  height: 42px;\n  width: 208px;\n  background: #F34937;\n  margin: 31px auto 0 auto;\n  text-align: center;\n  line-height: 42px;\n  color: #fff;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.back[data-v-ee92fbbe] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 31px auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.back img[data-v-ee92fbbe] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
 
 // exports
 
@@ -19,15 +19,13 @@ exports.push([module.i, "\n.avatar[data-v-ee92fbbe] {\n  width: 76px;\n  height:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', {
-    staticClass: "avatar"
-  }), _vm._v(" "), _c('div', {
+  return _c('div', [_vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "price-title"
   }, [_vm._v("保证金额")]), _vm._v(" "), _c('div', {
     staticClass: "price"
   }, [_vm._v("80.00")]), _vm._v(" "), _c('div', {
     staticClass: "payment"
-  }, [_vm._m(0), _vm._v(" "), _c('div', {
+  }, [_vm._m(1), _vm._v(" "), _c('div', {
     staticClass: "choose",
     on: {
       "click": function($event) {
@@ -43,7 +41,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }) : _vm._e()])]), _vm._v(" "), _c('div', {
     staticClass: "payment"
-  }, [_vm._m(1), _vm._v(" "), _c('div', {
+  }, [_vm._m(2), _vm._v(" "), _c('div', {
     staticClass: "choose",
     on: {
       "click": function($event) {
@@ -59,7 +57,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }) : _vm._e()])]), _vm._v(" "), _c('div', {
     staticClass: "payment"
-  }, [_vm._m(2), _vm._v(" "), _c('div', {
+  }, [_vm._m(3), _vm._v(" "), _c('div', {
     staticClass: "choose",
     on: {
       "click": function($event) {
@@ -93,6 +91,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "ourLogo"
+  }, [_c('img', {
+    attrs: {
+      "src": "../imgs/logo.jpg"
+    }
+  })])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "left"
   }, [_c('div', {
@@ -216,6 +222,8 @@ var _util2 = _interopRequireDefault(_util);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var urlParams = _util2.default.parseQueryString(window.location.search); //
+//
+//
 //
 //
 //

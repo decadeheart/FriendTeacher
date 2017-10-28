@@ -35,6 +35,11 @@
   border-radius: 50%;
   background-color: #fff;
 }
+.logo img{
+  width: 172px;
+  height: 172px;
+  border-radius: 50%; 
+}
 .active{
   background: #333333;
 }
