@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 121:
+/***/ 125:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -8,7 +8,27 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "inner"
   }, [_c('div', {
     staticClass: "wrapper"
-  }, [_vm._m(0), _vm._v(" "), _vm._l((_vm.teacherlist), function(teacher) {
+  }, [_c('div', {
+    staticClass: "filter"
+  }, [_c('div', {
+    staticClass: "city"
+  }, [_c('img', {
+    attrs: {
+      "src": "../imgs/icon_07.png"
+    }
+  }), _vm._v(" "), (!_vm.city) ? _c('span', {
+    on: {
+      "click": function($event) {
+        _vm.address()
+      }
+    }
+  }, [_vm._v("请选址")]) : _c('span', {
+    on: {
+      "click": function($event) {
+        _vm.address()
+      }
+    }
+  }, [_vm._v(_vm._s(_vm.city))])]), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1)]), _vm._v(" "), _vm._l((_vm.teacherlist), function(teacher) {
     return _c('div', {
       staticClass: "teacherlist",
       class: teacher.class,
@@ -69,26 +89,20 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   })], 2)])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "filter"
-  }, [_c('div', {
-    staticClass: "city"
-  }, [_c('img', {
-    attrs: {
-      "src": "../imgs/icon_07.png"
-    }
-  }), _vm._v(" "), _c('span', [_vm._v("武汉市")])]), _vm._v(" "), _c('div', {
     staticClass: "star-sort"
   }, [_c('span', [_vm._v("按星级排序")]), _vm._v(" "), _c('img', {
     attrs: {
       "src": "../imgs/icon_08.png"
     }
-  })]), _vm._v(" "), _c('div', {
+  })])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
     staticClass: "need-sort"
   }, [_c('span', [_vm._v("按需求排序")]), _vm._v(" "), _c('img', {
     attrs: {
       "src": "../imgs/icon_08.png"
     }
-  })])])
+  })])
 }]}
 module.exports.render._withStripped = true
 if (false) {
@@ -100,13 +114,13 @@ if (false) {
 
 /***/ }),
 
-/***/ 133:
+/***/ 138:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(90);
+var content = __webpack_require__(93);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -8707,18 +8721,18 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 
-/***/ 42:
+/***/ 43:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(133)
+__webpack_require__(138)
 
 var Component = __webpack_require__(5)(
   /* script */
-  __webpack_require__(77),
+  __webpack_require__(79),
   /* template */
-  __webpack_require__(121),
+  __webpack_require__(125),
   /* scopeId */
   "data-v-09360e44",
   /* cssModules */
@@ -8746,7 +8760,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 77:
+/***/ 79:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8816,11 +8830,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
 
 var TeacherList = {
   data: function data() {
     return {
-      teacherlist: []
+      teacherlist: [],
+      city: ''
     };
   },
   mounted: function mounted() {
@@ -8829,7 +8845,10 @@ var TeacherList = {
 
   methods: {
     renderTeacherList: function renderTeacherList() {
+      console.log(localStorage);
       var self = this;
+      self.city = localStorage.getItem('city');
+      console.log(self.city);
       _api2.default.getTeacherList().onSuccess(function (resp) {
         self.teacherlist = resp.teacherlist;
       }).onFail(function () {
@@ -8856,6 +8875,9 @@ var TeacherList = {
     },
     goToDetail: function goToDetail(teacher) {
       location.href = "./detail.html?name=" + encodeURIComponent(teacher.name);
+    },
+    address: function address() {
+      location.href = "./location.html";
     }
   }
 };
@@ -8863,19 +8885,19 @@ exports.default = TeacherList;
 
 /***/ }),
 
-/***/ 87:
+/***/ 90:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(2);
+__webpack_require__(1);
 
 var _vue = __webpack_require__(0);
 
 var _vue2 = _interopRequireDefault(_vue);
 
-var _TeacherList = __webpack_require__(42);
+var _TeacherList = __webpack_require__(43);
 
 var _TeacherList2 = _interopRequireDefault(_TeacherList);
 
@@ -8890,7 +8912,7 @@ var app = new _vue2.default({
 
 /***/ }),
 
-/***/ 90:
+/***/ 93:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)();
@@ -8905,4 +8927,4 @@ exports.push([module.i, "\n.inner[data-v-09360e44] {\n  display: flex;\n  justif
 
 /***/ })
 
-},[87]);
+},[90]);

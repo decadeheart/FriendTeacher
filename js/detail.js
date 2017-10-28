@@ -1,6 +1,21 @@
 webpackJsonp([3],{
 
-/***/ 128:
+/***/ 100:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(4)();
+// imports
+
+
+// module
+exports.push([module.i, "\n.inner[data-v-6850238c] {\n  width: 375px;\n  margin: 0 auto;\n}\n.inner .detail-wrapper .avatar[data-v-6850238c] {\n  height: 82px;\n  width: 82px;\n  margin: 37px auto 14px auto;\n  border-radius: 50%;\n}\n.inner .detail-wrapper .avatar img[data-v-6850238c] {\n  height: 82px;\n  width: 82px;\n  border-radius: 50%;\n}\n.inner .detail-wrapper .name[data-v-6850238c] {\n  font-size: 16.7px;\n  font-family: 宋体;\n  font-weight: bold;\n  text-align: center;\n  margin-bottom: 17px;\n  color: #555555;\n}\n.inner .detail-wrapper .item[data-v-6850238c] {\n  margin-bottom: 14px;\n  width: 256px;\n  height: 18px;\n  margin-left: 119px;\n  line-height: center;\n}\n.inner .detail-wrapper .item .title[data-v-6850238c] {\n  font-size: 13px;\n  font-family: 宋体;\n  font-weight: bold;\n  color: #696969;\n}\n.inner .detail-wrapper .item .content[data-v-6850238c] {\n  font-size: 16px;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .detail-wrapper .item .content span[data-v-6850238c] {\n  margin-right: 8px;\n}\n.inner .detail-wrapper .item .content span img[data-v-6850238c] {\n  height: 15px;\n}\n.inner .detail-wrapper .introduction[data-v-6850238c] {\n  width: 289px;\n  height: 95px;\n  margin: 29px auto 26px auto;\n}\n.inner .detail-wrapper .introduction .title[data-v-6850238c] {\n  font-size: 12.5px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .introduction .content[data-v-6850238c] {\n  font-size: 12.5px;\n}\n.inner .detail-wrapper .book[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #F34937;\n  margin: 31px auto 17px auto;\n  text-align: center;\n  line-height: 42px;\n  color: #fff;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 0 auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back img[data-v-6850238c] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 132:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -98,13 +113,13 @@ if (false) {
 
 /***/ }),
 
-/***/ 140:
+/***/ 145:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(97);
+var content = __webpack_require__(100);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -8710,13 +8725,13 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 /* styles */
-__webpack_require__(140)
+__webpack_require__(145)
 
 var Component = __webpack_require__(5)(
   /* script */
-  __webpack_require__(68),
+  __webpack_require__(69),
   /* template */
-  __webpack_require__(128),
+  __webpack_require__(132),
   /* scopeId */
   "data-v-6850238c",
   /* cssModules */
@@ -8744,7 +8759,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 68:
+/***/ 69:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8856,13 +8871,13 @@ exports.default = DetailPage;
 
 /***/ }),
 
-/***/ 80:
+/***/ 82:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(2);
+__webpack_require__(1);
 
 var _vue = __webpack_require__(0);
 
@@ -8881,21 +8896,6 @@ var app = new _vue2.default({
   }
 });
 
-/***/ }),
-
-/***/ 97:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(4)();
-// imports
-
-
-// module
-exports.push([module.i, "\n.inner[data-v-6850238c] {\n  width: 375px;\n  margin: 0 auto;\n}\n.inner .detail-wrapper .avatar[data-v-6850238c] {\n  height: 82px;\n  width: 82px;\n  margin: 37px auto 14px auto;\n  border-radius: 50%;\n}\n.inner .detail-wrapper .avatar img[data-v-6850238c] {\n  height: 82px;\n  width: 82px;\n  border-radius: 50%;\n}\n.inner .detail-wrapper .name[data-v-6850238c] {\n  font-size: 16.7px;\n  font-family: 宋体;\n  font-weight: bold;\n  text-align: center;\n  margin-bottom: 17px;\n  color: #555555;\n}\n.inner .detail-wrapper .item[data-v-6850238c] {\n  margin-bottom: 14px;\n  width: 256px;\n  height: 18px;\n  margin-left: 119px;\n  line-height: center;\n}\n.inner .detail-wrapper .item .title[data-v-6850238c] {\n  font-size: 13px;\n  font-family: 宋体;\n  font-weight: bold;\n  color: #696969;\n}\n.inner .detail-wrapper .item .content[data-v-6850238c] {\n  font-size: 16px;\n  font-family: 宋体;\n  font-weight: bold;\n}\n.inner .detail-wrapper .item .content span[data-v-6850238c] {\n  margin-right: 8px;\n}\n.inner .detail-wrapper .item .content span img[data-v-6850238c] {\n  height: 15px;\n}\n.inner .detail-wrapper .introduction[data-v-6850238c] {\n  width: 289px;\n  height: 95px;\n  margin: 29px auto 26px auto;\n}\n.inner .detail-wrapper .introduction .title[data-v-6850238c] {\n  font-size: 12.5px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .introduction .content[data-v-6850238c] {\n  font-size: 12.5px;\n}\n.inner .detail-wrapper .book[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #F34937;\n  margin: 31px auto 17px auto;\n  text-align: center;\n  line-height: 42px;\n  color: #fff;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back[data-v-6850238c] {\n  height: 42px;\n  width: 208px;\n  background: #fff;\n  margin: 0 auto;\n  text-align: center;\n  line-height: 42px;\n  font-size: 18.7px;\n  font-weight: bold;\n}\n.inner .detail-wrapper .back img[data-v-6850238c] {\n  width: 15px;\n  height: 15px;\n}\n", ""]);
-
-// exports
-
-
 /***/ })
 
-},[80]);
+},[82]);

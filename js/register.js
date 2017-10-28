@@ -1,6 +1,6 @@
 webpackJsonp([6],{
 
-/***/ 125:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -44,13 +44,13 @@ if (false) {
 
 /***/ }),
 
-/***/ 137:
+/***/ 142:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(94);
+var content = __webpack_require__(97);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -71,18 +71,18 @@ if(false) {
 
 /***/ }),
 
-/***/ 40:
+/***/ 41:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(137)
+__webpack_require__(142)
 
 var Component = __webpack_require__(5)(
   /* script */
-  __webpack_require__(75),
+  __webpack_require__(77),
   /* template */
-  __webpack_require__(125),
+  __webpack_require__(129),
   /* scopeId */
   "data-v-46d2372f",
   /* cssModules */
@@ -110,7 +110,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 75:
+/***/ 77:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -153,19 +153,19 @@ exports.default = Register;
 
 /***/ }),
 
-/***/ 85:
+/***/ 88:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(2);
+__webpack_require__(1);
 
 var _vue = __webpack_require__(0);
 
 var _vue2 = _interopRequireDefault(_vue);
 
-var _Register = __webpack_require__(40);
+var _Register = __webpack_require__(41);
 
 var _Register2 = _interopRequireDefault(_Register);
 
@@ -180,7 +180,7 @@ var app = new _vue2.default({
 
 /***/ }),
 
-/***/ 94:
+/***/ 97:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(4)();
@@ -195,4 +195,4 @@ exports.push([module.i, "\n.inner .student-wrapper[data-v-46d2372f] {\n  backgro
 
 /***/ })
 
-},[85]);
+},[88]);
