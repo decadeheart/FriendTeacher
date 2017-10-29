@@ -186,7 +186,21 @@ var Loaction = {
         localStorage.setItem("city", self.city);
         localStorage.setItem("recentLng", self.recentLng);
         localStorage.setItem("recentLat", self.recentLat);
-        console.log(localStorage);
+        var point = new BMap.Point(e.point.lng, e.point.lat);
+        var marker = new BMap.Marker(point); // 创建标注    
+        map.addOverlay(marker);
+        marker.enableDragging();
+        marker.addEventListener("dragend", function (e) {
+          var point = new BMap.Point(e.point.lng, e.point.lat);
+          var gc = new BMap.Geocoder();
+          gc.getLocation(point, function (rs) {
+            var addComp = rs.addressComponents;
+            var mapAddress = addComp.district + addComp.street + addComp.streetNumber;
+            self.city = addComp.city;
+            self.province = addComp.province;
+            self.addressDetail = mapAddress;
+          });
+        });
       });
       geolocationControl.addEventListener("locationError", function (e) {
         // 定位失败事件
